@@ -18,6 +18,7 @@ struct lcmt_jaco_status
   // "AngularForceGravityFree" in Kinova's documentation.
   double joint_torque_external[num_joints];
   double joint_current[num_joints];
+  double joint_temperature[num_joints];
 
   int32_t num_fingers;
   double finger_position[num_fingers];
